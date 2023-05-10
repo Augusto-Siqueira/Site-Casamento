@@ -1,0 +1,273 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #fff0d7;
+}
+
+/*----------------------------- CABEÇALHO -----------------------------*/
+.container {
+    margin: 50px;
+    display: flex;
+    justify-content:center;
+}
+.cabecalho {
+    border: solid 2px rgba(255, 205, 121, 0.7);
+    border-radius: 150px;
+    box-shadow: 0px 0px 80px rgb(124, 124, 124);
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    height: 800px;
+    background-image: url('../IMAGES/Pedido.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.nomes {
+    display: flex;
+    top: 0;
+    font-family: 'Fasthand';
+    font-size: 150px;
+    text-shadow: -7px 7px 3px rgb(0, 0, 0);
+}
+.menu {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;
+    right: 0;
+    top: 100px;
+    width: 8em;
+    margin-top: -2.5em;
+}
+.menu .active {
+    display: flex;
+    border: solid 3px rgba(255, 205, 121, 0.3);
+    border-bottom-left-radius: 70px;
+    border-top-left-radius: 70px;
+    width: 150px;
+    background-color: rgba(255, 240, 215, 0.5);
+}
+.menu .active a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: 'kalam';
+    margin-left: -20px;
+}
+.menu .active a:hover {
+    color: #ce9c46;
+    text-shadow: -1px 1px 10px rgb(255, 255, 255)
+}
+.menu .active ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    left: 0px;
+}
+.menu .active ul li {
+    margin: 2px;
+    text-shadow: -1px 1px 10px rgb(0, 0, 0);
+}
+.timer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.text-timer {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: 'kalam';
+    font-weight: bold;
+    text-shadow: -5px 5px 5px rgb(0, 0, 0);
+}
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-shadow: -5px 5px 5px rgb(0, 0, 0);
+}
+.text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+}
+.countdown-el {
+    text-align: center;
+}
+.cabecalho span {
+    font-family: 'kalam';
+    font-size: 40px;
+}
+.topico-noivos {
+    border: solid 2px rgba(255, 205, 121, 0.7);
+    border-radius: 130px;
+    box-shadow: 0px 0px 80px rgb(124, 124, 124);
+    text-shadow: -5px 5px 5px rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Kalam';
+    font-size: 40px;
+    width: 1200px;
+    height: 600px;
+    color: white;
+    background-image: url('../IMAGES/Foto\ Gruta.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.noivostext {
+    text-align: center;
+    text-shadow: -5px 5px 5px rgb(0, 0, 0);
+
+}
+.ZOAS {
+    font-size: 70PX;
+}
+.topico-cerimônia {
+    border: solid 2px rgba(255, 205, 121, 0.7);
+    border-radius: 130px;
+    box-shadow: 0px 0px 80px rgb(124, 124, 124);
+    text-shadow: -5px 5px 5px rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Kalam';
+    font-size: 40px;
+    width: 1200px;
+    height: 600px;
+    color: white;
+    background-image: url('../IMAGES/cerimonia.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.topico-recepção {
+    border: solid 2px rgba(255, 205, 121, 0.7);
+    border-radius: 130px;
+    box-shadow: 0px 0px 80px rgb(124, 124, 124);
+    text-shadow: -5px 5px 5px rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Kalam';
+    font-size: 40px;
+    width: 1200px;
+    height: 600px;
+    color: white;
+    background-image: url('../IMAGES/Recepção.jpg');
+    background-size: cover;
+    background-position: center; 
+}
+.topico-presentes {
+    border: solid 2px rgba(255, 205, 121, 0.7);
+    border-radius: 130px;
+    box-shadow: 0px 0px 200px rgb(124, 124, 124);
+    text-shadow: -5px 5px 5px rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Kalam';
+    font-size: 40px;
+    width: 1200px;
+    height: 600px;
+    color: white;
+    background-image: url('../IMAGES/Presentes.jpg');
+    background-size: cover;
+    background-position: center;    
+}
+
+
+
+
+
+@media (min-width:450px) and (max-width:800px) {
+    .nomes {
+       font-size: 90px;
+    }
+    .text-timer {
+        font-size: 38px;
+    }
+    .text {
+        font-size: 80px;
+    }
+    .topico-noivos, .topico-cerimônia, .topico-presentes, .topico-recepção {
+        font-size: 40px;
+    }
+    .countdown-el span {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    body {
+      margin: 0;
+      padding: 0;
+    }
+  
+    .container {
+      margin: 20px;
+    }
+  
+    .cabecalho {
+      height: 400px;
+      font-size: 50px;
+      border-radius: 100px;
+    }
+  
+    .nomes {
+      font-size: 45px;
+    }
+  
+    .menu {
+      font-size: 16px;
+      width: 6em;
+      margin-top: -1.5em;
+    }
+  
+    .text-timer {
+      font-size: 20px;
+    }
+  
+    .text {
+      font-size: 3rem;
+      margin: 0.5rem 1rem;
+    }
+  
+    .topico-noivos {
+      height: 400px;
+      font-size: 30px;
+      border-radius: 100px;
+    }
+  
+    .noivostext {
+      font-size: 24px;
+    }
+  
+    .topico-cerimônia {
+      height: 400px;
+      font-size: 30px;
+      border-radius: 100px;
+    }
+  
+    .topico-recepção {
+      height: 400px;
+      font-size: 30px;
+      border-radius: 100px;
+    }
+    .topico-presentes {
+        height: 400px;
+        font-size: 30px;
+        border-radius: 100px;
+    }
+    .countdown-el span {
+        font-size: 15px;
+    }
+}
+  
