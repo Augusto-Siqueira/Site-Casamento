@@ -327,4 +327,7 @@ header {
   .countdown-el span {
     font-size: 15px;
   }
+  .countdown-el p {
+    font-size: 35px;
+  }
 }
